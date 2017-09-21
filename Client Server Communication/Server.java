@@ -11,7 +11,6 @@ public class Server{
 		PrintStream ps = new PrintStream(soc.getOutputStream());
 		Scanner s = new Scanner(System.in);		
 		String input="", output="";
-
 		System.out.println("Server ready!!!");
 		while(!input.equals("bye")){
 			input = buffer.readLine();
@@ -19,7 +18,6 @@ public class Server{
 			System.out.print("Server's messsage = ");
 			output = s.nextLine();
 			ps.println(output);
-
 		}				
 		ps.close();
 		buffer.close();
