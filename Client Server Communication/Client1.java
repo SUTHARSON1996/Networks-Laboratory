@@ -2,7 +2,7 @@ import java.net.*;
 import java.io.*;
 import java.util.*;
 
-public class Client{
+public class Client1{
 
 	public static void main(String[] args)throws Throwable{
 		Scanner s = new Scanner(System.in);
@@ -23,8 +23,8 @@ public class Client{
 			ps.close();
 			//buffer.close();
 			soc.close();
-
+	
 		}
-		
+	
 	}
 }
